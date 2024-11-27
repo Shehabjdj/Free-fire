@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع شحن فري فاير</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://your-image-url.com') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px;
+        }
+        .package {
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            width: 200px;
+            transition: transform 0.3s;
+        }
+        .package:hover {
+            transform: scale(1.05);
+        }
+        .package img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .package h2 {
+            margin: 10px 0;
+        }
+        .package p {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        .package button {
+            background-color: #ff6666;
+            border: none;
+            padding: 10px;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1em;
+        }
+        .package button:hover {
+            background-color: #ff3333;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>موقع شحن فري فاير</h1>
+    <p>اختار الباقة المفضلة لديك لشراء الجواهر!</p>
+</header>
+
+<div class="container">
+    <div class="package">
+        <img src="https://your-image-url.com/diamond1.jpg" alt="باقة 1000 جوهرة">
+        <h2>باقة 1000 جوهرة</h2>
+        <p>سعر: 50 جنيه</p>
+        <button>اشترِ الآن</button>
+    </div>
+
+    <div class="package">
+        <img src="https://your-image-url.com/diamond2.jpg" alt="باقة 2000 جوهرة">
+        <h2>باقة 2000 جوهرة</h2>
+        <p>سعر: 100 جنيه</p>
+        <button>اشترِ الآن</button>
+    </div>
+
+    <div class="package">
+        <img src="https://your-image-url.com/diamond3.jpg" alt="باقة 5000 جوهرة">
+        <h2>باقة 5000 جوهرة</h2>
+        <p>سعر: 200 جنيه</p>
+        <button>اشترِ الآن</button>
+    </div>
+</div>
+
+</body>
+</html>
